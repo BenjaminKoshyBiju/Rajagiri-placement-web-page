@@ -1,0 +1,32 @@
+<bookstore>
+	<book category="Anime">
+	<title>Attack on Titans</title>
+	<autor>Omayua Mou Shinderu- Nani</author>
+	<year> 2013</year>
+</book>
+<book category="children">
+	<title>Harry potter</title>
+	<autor>JK Rowling</author>
+	<year> 2005</year>
+</book>
+
+</bookstore>
+<person gender="male>
+	<forstname> Benjamin </firstname>
+	<lastname> Koshy biju </lastname>
+</person>
+
+<person date="03/02/2022>
+	<date> 03/02/2022 </date>
+	<date>
+		<year>2022</year>
+		<month>February</month>
+		<day>03</day>
+	</date>
+	<gender>male</gender>
+	<forstname> Benjamin </firstname>
+	<lastname> Koshy biju </lastname>
+</person>
+
+xmlhttpRequest object
+ajax
