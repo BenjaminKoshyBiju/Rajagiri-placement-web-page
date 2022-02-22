@@ -1,0 +1,14 @@
+<html>
+<body>
+<h2> creating object from json string</h2>
+<p id="demo"> </p>
+<script>
+const txt= '{"name":"Ben","age":22,"location": "Kochi","DoB":"02/03/1990"}';
+const obj=JSON.parse(txt);
+obj.DoB=new Date(obj.DoB);
+document.getElementById("demo").innerHTML=obj.name+","+obj.DoB;
+</script>
+<body>
+</html>
+
+Go through youtube tutorials Ajax json xml javascript and all.
