@@ -1,0 +1,27 @@
+<?xml version=1.0" encoding="UTF-8"?>
+<note>
+	<to> hello worl </to>
+<From> Benjamin</from>
+<heading> Remainder mail </heading>
+<body> Remaindr
+</note>
+<message> salary < 1000<=1000 <meta ....
+
+
+JSON
+...........
+Data exchange format JavaScript Object  Notation
+text format;;;; string data; store and transport data
+self describing
+data is name/value pairs
+ 
+{"employees":[
+		{"firstname":"Ben","Lastname":"Koshy Biju"}
+		{"firstname":"Josh","Lastname":"Mahn"}
+		{"firstname":"Robert","Lastname":"Downey"}
+	     ]}
+
+
+parsing in json
+const obj=JSON.parse
+	

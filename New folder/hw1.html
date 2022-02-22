@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+      function passvalues()
+      {
+        var fname=document.getElementById("fname").value;
+        localStorage.setItem("textValue1",fname);
+        var adm=document.getElementById("adm").value;
+        localStorage.setItem("textValue2",adm);
+        var course=document.getElementById("course").value;
+        localStorage.setItem("textValue3",course);
+        var Email=document.getElementById("Email").value;
+        localStorage.setItem("textValue4",Email);
+        var phn=document.getElementById("phn").value;
+        localStorage.setItem("textValue5",phn);
+        return false;
+      }
+</script>
+<style>
+a:link{ color:green;
+	 background-color: transparent;
+	text-decoration:none;
+}
+a:visited{
+	color:blue;
+background-color: transparent;
+	text-decoration:none;
+}
+a:active
+{  color:yellow;
+background-color: transparent;
+	text-decoration:none;
+}
+a:hover{ color:red;
+	background-color: transparent;
+		text-decoration:underline;
+	}
+</style>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<img src="W:\Web tech Lab\companies\TCS.png" height="100" alt="Image" />
+<img src="W:\Web tech Lab\companies\hcl.jpg" height="100" alt="Image" />
+<img src="W:\Web tech Lab\companies\cognizant.jpg" height="100" alt="Image" />
+<img src="W:\Web tech Lab\companies\wipro.png" height="100" alt="Image" />
+<img src="W:\Web tech Lab\companies\infosys.png" height="100" alt="Image" />
+<div class="center">
+<a href="https://rajagiri.edu/"><img src="W:\Web tech Lab\rajagiri.png" height="100" alt="Image" /></a><br><br><br><br><br>  
+<form action="example.html">
+  <label for="fname">Username:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="adm">Admission no:</label><br>
+  <input type="text" id="adm" name="adm"><br><br>
+   <label for="course">course:</label><br>
+  <input type="text" id="course" name="course"><br><br>
+  <label for="Email">Email ID</label><br>
+  <input type="text" id="Email" name="Email"><br><br>
+  <label for="phn">Phone No:</label><br>
+  <input type="text" id="phn" name="phn"><br><br>
+<input type="submit" value="click" onclick="passvalues();"/>
+
+</form>
+<footer class="site-footer">
+  
+    <p>Copyright 2022 @<a href="https://rajagiri.edu/">https://rajagiri.edu/  </a>- All Rights Reserved  </p>
+
+</footer>
+
+</body> 
+</html>

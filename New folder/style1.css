@@ -1,0 +1,17 @@
+
+.center{ text-align: center;
+	
+        border-style: solid;
+	 margin-top:19px;
+	 margin: auto;
+	 width: 500px;
+	 height: 700px;
+	<!--padding:25px;--!>
+	margin: 50px;
+       }
+.site-footer {
+ background: #00FF00;
+}
+
+button:hover { background-color: Blue; color: white;}
+
