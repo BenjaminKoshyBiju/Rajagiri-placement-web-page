@@ -1,12 +1,4 @@
-/* =======
 
-	Template Name: Play Bootstrap
-	Author: UIdeck
-	Author URI: https://uideck.com/
-	Support: https://github.com/uideck/
-	Version: 1.0
-
-======== */
 /*===========================
   COMMON css 
 ===========================*/
@@ -25,6 +17,7 @@ body {
   font-style: normal;
   color: var(--body-color);
   overflow-x: hidden;
+  border:rgb(52, 194, 76); border-width:5px; border-style:solid;
 }
 
 * {
@@ -524,6 +517,7 @@ p {
 
 .ud-hero-content .ud-hero-title {
   color: var(--white);
+  color:green;
   font-weight: 700;
   font-size: 45px;
   line-height: 60px;
