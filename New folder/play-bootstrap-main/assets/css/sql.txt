@@ -1,0 +1,12 @@
+create table student
+( rollno number primary key,
+name varchar2(40),
+address varchar2(50),
+city varchar2(30));
+
+
+insert into student values (1,'John','def','yty','ernakulam');
+insert into student values (2,'deodon','daq','yeet','ernakulam');
+insert into student values (3,'KazakBoi','ded','boom','kazu');
+
+update student set address='ernakulam' where rollno=2;
