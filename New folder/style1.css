@@ -1,17 +1,29 @@
+.cent
+{ 
+	
+	text-align: center;
+}
+
+
 
 .center{ text-align: center;
 	
-        border-style: solid;
+     border-style: solid;
 	 margin-top:19px;
 	 margin: auto;
 	 width: 500px;
-	 height: 700px;
-	<!--padding:25px;--!>
-	margin: 50px;
+	 height: 600px;
+	
        }
-.site-footer {
- background: #00FF00;
-}
 
-button:hover { background-color: Blue; color: white;}
+body {
+	font-family: var(--font);
+	font-weight: normal;
+	font-style: normal;
+	color: var(--body-color);
+	overflow-x: hidden;
+	border:rgb(52, 194, 76); border-width:5px; border-style:solid;
+  }
+
+button:hover { background-color: Blue; color: rgb(243, 8, 8);}
 
